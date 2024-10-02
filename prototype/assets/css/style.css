@@ -1,4 +1,15 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
 
 body{
-    background-color: #E6EFF4;
+    /*background-color: lightblue;*/
+    font-family: "Gabarito", sans-serif;
+    background-color: #e6eff4;
 }
