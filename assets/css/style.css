@@ -1,3 +1,159 @@
+html {
+    box-sizing: border-box;
+}
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+}
+
+/*  ---------------Reponsive Images-----------------  */
+
+img{
+  max-width: 100%;
+}
+
+/*  --------------- Utility Classes-----------------  */
+
+
 body{
  background-color:azure;
 }
+
+body h1{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+body h2.name{
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+body h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+main h2.title{
+    border-top: 2px solid #c0c0c0;
+    text-align: center;
+    padding: 20px 0px 0px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+nav ul {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 0.4rem;
+    transition:.4s;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 2rem;
+    /*border-top: 2px solid #cccccc;*/
+    /*border-bottom: 2px solid #cccccc;*/
+    padding: 20px 0 40px 0;
+}
+
+nav.main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 2rem;
+    /*border-top: 2px solid #cccccc;*/
+    /*border-bottom: 2px solid #cccccc;*/
+    padding: 20px 0 40px 0;
+    padding-left: 30px;
+}
+
+nav.number{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 2rem;
+    /*border-top: 1px solid #cccccc;*/
+    border-bottom: 2px solid #cccccc;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+nav.number2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 2rem;
+    border-top: 2px solid #cccccc;
+    /*border-bottom: 2px solid #cccccc;*/
+    padding: 20px 0 40px 30px;
+}
+
+nav article.post {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    transition:.4s;
+}
+
+nav article.post:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+nav figure{
+    margin: 0;
+}
+  
+nav figcaption, time.post-date {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    text-align: center;
+    color: #c0c0c0;
+}
+  
+nav.post a{
+    color: #363636;
+}
+
+nav h2{
+    text-align: center;
+}
+
+article.post ul{
+    list-style-type: none;
+    padding: 0px 0px 0px 10px;
+    box-shadow:none;
+    font-size: 0.9rem;
+}
+
+article.post h4{
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    margin: 0;
+}
+
+article.post p{
+    padding: 0px 0px;
+    margin: 0;
+}
+
+body h2.New_Project{
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
