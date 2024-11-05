@@ -1,0 +1,108 @@
+/* ---------------Box Sizing-----------------  */
+
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+/*  ---------------Reponsive Images-----------------  */
+
+img{
+  max-width: 100%;
+}
+
+/*  --------------- Utility Classes-----------------  */
+
+
+.container{
+    width: 80vw;
+    max-width: 960px;
+    margin: 40px auto;
+}
+
+body{
+    font-family: "Gabarito", sans-serif;
+    margin:0;
+}
+
+header.primary{
+    background-color: #A4A5A6;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+    /*padding: 20px 40px;*/
+    display: block;
+}
+
+header.primary h1{
+    float:left;
+    padding: 5px 0px;
+}
+
+header.primary h1 a{
+    margin: 0;
+    text-decoration:none;
+}
+
+header.primary h2{
+    font-size: 1.3rem;
+    margin:0px;
+    padding-top: 30px;   
+}
+
+header.primary nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+header.primary nav ul li{
+    list-style-type: none;
+    border:1px solid #c0c0c0;
+    padding: 7.5px 10px;
+    background-color: rgba(255, 252, 252, 0.628);
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.container h2{
+  text-align: center;
+}
+
+.img-right{
+  float: right;
+  padding: 5px;
+  /*border: 1px solid #cccccc;
+  margin: 10px 0 10px 20px;
+  border-radius: 50px;*/
+}
+
+table, th, td{
+  border-collapse: collapse;
+  border: 2px solid black;
+  padding: 1px;
+  margin: 0px;
+}
+
+.title{
+  text-align: center;
+}
+
+.questions{
+  width: 80vw;
+  max-width: 960px;
+  margin: 40px auto;
+}
+
+.questions h2{
+  border-left: 7.55px solid red;
+  padding: 5px 0 5px 10px;
+}
+
+
