@@ -107,14 +107,18 @@ header.primary nav ul li a:hover{
 
 #first h2{
   margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 200%;
 }
 
 #first p{
   text-wrap: left;
-  font-size: 100%;
+  font-size: 120%;
   padding-left: 50px;
   padding-bottom:10px;
   margin:0px;
+  text-align: left;
 }
 
 .exterior{
@@ -135,10 +139,30 @@ header.primary nav ul li a:hover{
 #second h2{
   margin: 0px;
   padding-top:10px;
+  font-size: 200%;
 }
 
 #second h3{
   text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 150%;
+}
+
+#second h4{
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin: 0px;
+  font-size: 130%;
+}
+
+#second p{
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin: 0px;
 }
 
 /*.second ul{ 
@@ -152,6 +176,8 @@ header.primary nav ul li a:hover{
   text-wrap: left;
   font-size: 120%;
   text-align:left;
+  margin: 0px;
+  padding-top: 5px;
 }
 
 .delivery{
@@ -168,28 +194,56 @@ header.primary nav ul li a:hover{
   font-size: 120%;
 }
 
+
+
+
 #third{
   /*background-image: url(/spacex/assets/img/spacex_delivery_2.jpg);
   background-size: contain;*/
+  background-color: #03588C;
   padding-top: 0px;
   padding-bottom: 0px;
   color: black;
   margin: 0px;
 }
 
-#third h3{
+#third h2{
   text-align: center;
+  margin: 0px;
+  padding: 10px 0px;
+  font-size: 150%;
+}
+
+#third h4{
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin: 0px;
+  font-size: 130%;
+}
+
+#third p{
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin: 0px;
 }
 
 .partnership{
   float: right;
-  padding: 5px 10px;
+  height: 100px;
 }
 
 .interior{
+  float: left;
+  padding-right: 10px;
+  padding-left: 15px;
+  height: 110px;
+}
+
+.launch{
   float: right;
-  padding-bottom: ;
-  padding: 5px 10px;
+  height: 100px;
 }
 
 #fourth{
@@ -199,6 +253,16 @@ header.primary nav ul li a:hover{
   color: black;
   margin: 0px;
 }
+
+#fourth h3{
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 150%;
+}
+
+
 
 /*header.primary nav ul{
     display: flex;
