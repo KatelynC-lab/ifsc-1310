@@ -35,8 +35,14 @@ body h2.name{
 }
 
 body h3{
-    text-align: center;
+    text-align: left;
     font-size: 1.5rem;
+    border-bottom-style: solid;
+    border-bottom-width: 0.666667px;
+}
+
+.text{
+    font-size: 1.2rem;
 }
 
 main h2.title{
