@@ -32,6 +32,7 @@ img{
 .container{
     width: 100vw;
     margin: 40px auto;
+    color: white;
 }
 
 body{
@@ -107,15 +108,17 @@ header.primary nav ul li a:hover{
   background-color:rgba(0, 0, 0, 0.8);
 }
 
-h2, h4{
-  clear:both;
+
+section3 h1{
+  color:
 }
+
 
 #first{
   /*background-image: url(/spacex/assets/img/color_03588c.png);
   background-size:auto;*/
   background-color: #03588C;
-  color: black;
+  color: white;
   margin: 0px;
 }
 
@@ -133,6 +136,11 @@ h2, h4{
   padding-bottom:10px;
   margin:0px;
   text-align: left;
+  
+}
+
+#first p a{
+  color: white;
 }
 
 .exterior{
@@ -146,8 +154,12 @@ h2, h4{
   background-color: #03588C;
   padding-top: 0px;
   padding-bottom: 0px;
-  color: black;
+  color: white;
   margin: 0px;
+}
+
+#second h2, #second h4{
+  clear:both;
 }
 
 #second h2{
@@ -161,22 +173,23 @@ h2, h4{
   margin: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 150%;
+  font-size: 160%;
 }
 
 #second h4{
   text-align: left;
-  padding-left: 20px;
+  padding-left: 40px;
   padding-top: 10px;
   margin: 0px;
-  font-size: 130%;
+  font-size: 140%;
 }
 
 #second p{
   text-align: left;
-  padding-left: 20px;
+  padding-left: 30px;
   padding-bottom: 10px;
   margin: 0px;
+  font-size: 130%;
 }
 
 /*.second ul{ 
@@ -188,10 +201,11 @@ h2, h4{
 
 .delivery1{
   text-wrap: left;
-  font-size: 120%;
-  text-align:left;
+  font-size: 130%;
   margin: 0px;
+  text-align: center;
   padding-top: 5px;
+  padding-left: 20px;
 }
 
 .delivery{
@@ -205,7 +219,7 @@ h2, h4{
   padding-top: 5px;
   text-align: left;
   text-wrap: left;
-  font-size: 120%;
+  font-size: 130%;
 }
 
 
@@ -217,9 +231,17 @@ h2, h4{
   background-color: #03588C;
   padding-top: 0px;
   padding-bottom: 0px;
-  color: black;
+  color: white;
   margin: 0px;
 }
+
+#third h3{
+  font-size: 160%;
+  padding-left: 50px;
+  clear:both;
+}
+
+
 
 #third h2{
   text-align: center;
@@ -230,35 +252,38 @@ h2, h4{
 
 #third h4{
   text-align: left;
-  padding-left: 10px;
+  padding-left: 40px;
   padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+  font-size: 140%;
+  clear:both;
+}
+
+#third p{
+  text-align: left;
+  padding-left: 30px;
   padding-bottom: 10px;
   margin: 0px;
   font-size: 130%;
 }
 
-#third p{
-  text-align: left;
-  padding-left: 20px;
-  padding-bottom: 10px;
-  margin: 0px;
-}
-
 .partnership{
   float: right;
-  height: 100px;
+  padding-right: 90px;
+  padding-left: 10px;
 }
 
 .interior{
-  float: left;
-  padding-right: 10px;
-  padding-left: 15px;
-  height: 110px;
+  float: right;
+  padding-right: 90px;
+  padding-left: 10px;
 }
 
 .launch{
   float: right;
-  padding-right: 15px;
+  padding-right: 90px;
+  padding-left: 10px;
 }
 
 #fourth{
@@ -266,7 +291,7 @@ h2, h4{
   background-size: contain;*/
   background-color: #03588C;
   padding-top: 10px;
-  color: black;
+  color: white;
   margin: 0px;
 
 }
@@ -285,26 +310,34 @@ h2, h4{
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 0px;
-  font-size: 130%;
+  font-size: 140%;
+  clear:both;
 }
 
-#third p{
+#fourth p{
   text-align: left;
-  padding-left: 20px;
+  padding-left: 30px;
   padding-bottom: 10px;
   margin: 0px;
+  font-size: 130%;
 }
 
 #colophon{
   background-color: #03588C;
-  color: black;
+  color: white;
 }
 
 #colophon h6{
   margin: 0px;
-  padding: 25px 0px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 10px;
 }
 
+#colophon h6 a{
+  text-decoration:none;
+  color:white;
+}
 
 
 /*header.primary nav ul{
@@ -362,13 +395,14 @@ table, th, td{
 
 .title{
   text-align: center;
+  font-size: 150%;
 }
 
 .questions{
   width: 80vw;
   max-width: 960px;
   margin: 0px auto;
-  background-color: #0F478F;
+  background-color: #038AA8;
   /*display: flex; 
   justify-content: space-between;*/ 
 }
@@ -382,12 +416,14 @@ table, th, td{
 
 h1.question1{
   margin: 0px;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .answer{
-  padding-top: 50px;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .answer span{
@@ -397,7 +433,7 @@ h1.question1{
 }
 
 .questions h2{
-  margin: 0;
+  margin: 0px;
   
 }
 
@@ -405,11 +441,69 @@ h1.question1{
   margin:auto;
 }
 
+.slick-dots{
+  bottom: 20px;
+}
+
 #one{
   padding-top: 10px;
 }
 
+.split {
+  height: 50%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  background-color: red;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.toppart{
+  padding-bottom: 50px;
+
+}
+
+#context{
+  color:white;
+}
+
+#content p{
+  font-size: 120%;
+}
+
+tr:nth-child(even) {
+  background-color: #026cae;
+}
+
+.center1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 120%;
+}
 
 
 
